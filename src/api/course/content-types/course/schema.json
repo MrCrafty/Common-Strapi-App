@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "Course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Fees": {
+      "type": "integer"
+    },
+    "AgeGroup": {
+      "type": "string"
+    },
+    "DaysOfClasses": {
+      "type": "enumeration",
+      "enum": [
+        "(three months/two days a week)",
+        "(three months/four days a week)"
+      ]
+    }
+  }
+}
