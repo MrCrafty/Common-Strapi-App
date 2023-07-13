@@ -41,6 +41,10 @@
         "(three months/two days a week)",
         "(three months/four days a week)"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
